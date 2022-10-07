@@ -9,7 +9,7 @@ import TeamContainer from "../common/team/container/TeamContainer";
 function App() {
   return (
     <div>
-      <Header />
+      <Header/>
       <MainContainer />
       <GoalContainer />
       <TeamContainer />
