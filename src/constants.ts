@@ -10,7 +10,7 @@ export const TeamMap = [
     name: "Kyung wan Kim",
     position: "Finance Manager",
   },
-  { name: "Ryan Wright", position: "Mechanical Lead" },
+  { name: "Chase Swanson", position: "Mechanical Lead" },
   {
     name: "Michael Nicolaisen",
     position: "Electrical Lead",
