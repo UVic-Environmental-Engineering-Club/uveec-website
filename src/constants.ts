@@ -120,11 +120,6 @@ export const SponsorMap = [
     link: "https://www.fibertek.com/",
   },
   {
-    img: "/images/Lobby_Studios.svg",
-    title: "Lobby",
-    link: "https://www.lobby.so/",
-  },
-  {
     img: "/images/maximumprototyping.png",
     title: "Maximum Prototyping",
     link: "https://maxproto.com/",
