@@ -5,35 +5,47 @@ export const TeamMap = [
   {
     name: "Noah Wessels",
     position: "Project Manager",
+    img: "/images/LeadHeadshots/Noah.png"
+    
   },
   {
-    name: "Kyung wan Kim",
+    name: "Ethan Eckert",
     position: "Finance Manager",
+    img: "/images/LeadHeadshots/Background.png"
   },
-  { name: "Chase Swanson", position: "Mechanical Lead" },
+  { name: "Chase Swanson", 
+    position: "Mechanical Lead",
+    img: "/images/LeadHeadshots/Background.png",
+  },
   {
     name: "Michael Nicolaisen",
     position: "Electrical Lead",
+    img: "/images/LeadHeadshots/Michael.png",
   },
   {
     name: "Sian Friesen",
     position: "Electrical Lead",
+    img: "/images/LeadHeadshots/Sian.png",
   },
   {
     name: "Anthony Cieri",
     position: "Software Lead",
+    img: "/images/LeadHeadshots/Tony.png",
   },
   {
     name: "David Kim",
     position: "Software Lead",
+    img: "/images/LeadHeadshots/David.png",
   },
   {
     name: "Steve Anil John",
     position: "Software Lead",
+    img: "/images/LeadHeadshots/Steve.png",
   },
   {
     name: "Johanna Schales",
     position: "Oceanographic Lead",
+    img: "/images/LeadHeadshots/Background.png",
   },
 ];
 
