@@ -22,8 +22,7 @@ export const Carousel = ({ slides }: any) => {
     return (
         // I have no idea what I am doing but it is working for now.
         // AngleLeft is for arrows. Seems like we can use className to style div. - David
-        <div className="relative flex justify-center item-center">
-            <div className="relative h-96 w-96">
+        <div className="relative flex justify-center items-center rounded-lg w-full max-w-md mx-auto">
                 <FaAngleLeft
                     className={classNames("left-arrow", "opacity-40")}
                     onClick={prevSlide}
@@ -34,24 +33,25 @@ export const Carousel = ({ slides }: any) => {
                 />
                 {slides.map((slide, i) => {
                     return (
-                        <div className={i === current ? "slide active" : "slide"} key={i}>
+                        <div className={`
+            absolute top-0 left-0 w-full h-full flex justify-center items-center
+            transition-opacity duration-500
+            ${i === current ? "opacity-100" : "opacity-0"} `}>
                             {i === current && (
-                                <div className="relative h-96 w-96">
+                                <div className="relative h-96 w-96 rounded-lg overflow-hidden">
                                     <Image
                                         src={slide.src}
                                         alt=""
                                         layout="fill"
-                                        className="object-cover rounded-xl"
+                                        objectFit="contain"
+                                        className="rounded-xl"
                                         priority
                                     />
                                 </div>
-
                             )}
                         </div>
                     );
-
                 })}
-            </div>
         </div>
     );
 };
