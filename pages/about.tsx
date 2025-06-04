@@ -69,7 +69,6 @@ const About: NextPage = () => {
         {TeamMap.map((card, i) => (
           //<ProfileCard name={card.name} position={card.position} key={i} />
           <ProfileCard name={card.name} position={card.position} img={card.img} key={i} />
-          
         ))}
       </div>
 

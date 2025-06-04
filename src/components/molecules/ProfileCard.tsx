@@ -3,7 +3,7 @@ import Image from "next/image";
 interface ProfileCardProps {
   name: string;
   position: string;
-  img: string; //
+  img: string;
 }
 
 // ProfileCard for images of people in about page.
