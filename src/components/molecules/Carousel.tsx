@@ -36,7 +36,7 @@ export const Carousel = ({ slides }: any) => {
           <div
             key={i}
             className={`
-            absolute top-0 left-0 w-full h-full flex justify-center items-center
+            top-0 left-0 w-full h-full flex justify-center items-center
             transition-opacity duration-500
             ${i === current ? "opacity-100" : "opacity-0"} `}
           >
