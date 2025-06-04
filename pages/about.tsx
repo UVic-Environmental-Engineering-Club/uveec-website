@@ -64,11 +64,17 @@ const About: NextPage = () => {
       <h2 className="mt-4 text-3xl sm:text-4xl text-slate-900 font-extrabold tracking-tight dark:text-slate-50 text-center">
         Team Leadership
       </h2>
+      
       <div className="grid md:gap-8 lg:grid-cols-3 md:grid-cols-2 justify-items-center mx-auto pb-5 pt-3 px-6">
         {TeamMap.map((card, i) => (
+          //<ProfileCard name={card.name} position={card.position} key={i} />
           <ProfileCard name={card.name} position={card.position} img={card.img} key={i} />
         ))}
       </div>
+
+      
+
+
     </BaseLayout>
   );
 };

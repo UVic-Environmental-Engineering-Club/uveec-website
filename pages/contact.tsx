@@ -31,7 +31,7 @@ const Contact: NextPage = () => {
               <p className="pb-7">{contact.passage}</p>
             </div>
             <div className="flex justify-center w-full pb-14 text-center">
-              <Link href={`${contact.link}`} passHref>
+              <Link legacyBehavior href={`${contact.link}`} passHref>
                 <a target="_blank" rel="noopener noreferrer">
                   <span className="block bg-blue-600 text-lg font-medium rounded-2xl text-slate-50 w-80 py-4 cursor-pointer">
                     {contact.button}

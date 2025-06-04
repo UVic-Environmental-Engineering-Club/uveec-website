@@ -124,7 +124,7 @@ export const SponsorMap = [
   {
     img: "/images/ess.png",
     title: "Engineering Student Society",
-    link: "https://onlineacademiccommunity.uvic.ca/ess/",
+    link: "https://sites.google.com/view/uvic-ecss/",
   },
   {
     img: "/images/fibertek.png",
@@ -200,6 +200,11 @@ export const SponsorMapDark = [
     link: "https://www.altium.com/",
   },
   {
+    img: "/images/ansys.png",
+    title: "Ansys",
+    link: "https://www.ansys.com/",
+  },
+  {
     img: "/images/bluerobotics-dark.png",
     title: "BlueRobotics",
     link: "https://bluerobotics.com/",
@@ -212,18 +217,14 @@ export const SponsorMapDark = [
   {
     img: "/images/ess-dark.png",
     title: "Engineering Student Society",
-    link: "https://onlineacademiccommunity.uvic.ca/ess/",
+    link: "https://sites.google.com/view/uvic-ecss/",
   },
   {
     img: "/images/fibertek-dark.png",
     title: "FiberTek",
-    link: "https://www.fibertek.com/",
+    link: "https://fibertek.ca/",
   },
-  {
-    img: "/images/Lobby_Studios_dark.svg",
-    title: "Lobby",
-    link: "https://www.lobby.so/",
-  },
+  
   {
     img: "/images/maximumprototyping-dark.png",
     title: "Maximum Prototyping",
@@ -286,4 +287,29 @@ export const CarouselMapProject = [
   { src: "/images/carousel/boat1.jpg" },
   { src: "/images/carousel/boat2.jpg" },
   { src: "/images/carousel/boat3.jpg" },
+  
 ];
+
+export const CarouselMapProject2 = [
+  { src: "/images/carousel/underwaterglider1.png" },
+  { src: "/images/carousel/underwaterglider2.png" },
+  { src: "/images/carousel/underwaterglider3.png" },
+  { src: "/images/carousel/underwaterglider4.png" },
+  
+];
+
+export const timeline = [
+  { src: "/images/carousel/timeline.png" },
+];
+
+export const budget = [
+  { src: "/images/carousel/budget.png" },
+];
+
+
+/*
+export const ProjectsPageImages = [
+  {src = "/images/carousel/underwaterglider1.png"},
+  {src = "/images/carousel/grouppic1.png"},
+  {src = "/images/carousel/codepresent.png"},
+];*/

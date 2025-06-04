@@ -8,7 +8,7 @@ export const Footer = () => {
   return (
     <div>
       <div className="flex flex-col md:flex-row justify-evenly items-center md:items-baseline h-[700px] md:h-72 w-full space-y-7 md:space-y-16 bg-royalBlue ">
-        <Link href="/" passHref>
+        <Link legacyBehavior href="/" passHref>
           <a className="relative h-16 w-36 mb-20 top-16 hover:cursor-pointer">
             <Image
               layout="fill"
@@ -21,24 +21,27 @@ export const Footer = () => {
         </Link>
         <div className="space-y-2 flex flex-col text-center md:text-start">
           <h2 className="text-slate-50 font-bold mb-4">Project</h2>
-          <Link href="/projects/#usv" passHref>
+          <Link legacyBehavior href="/projects/#usv" passHref>
             <a className="text-slate-50 hover:text-orange hover:cursor-pointer">
               Unmanned Surface Vehicle
             </a>
           </Link>
           <Link
-            href="/_error"
+          legacyBehavior
+            //href="/_error"
+            href="/projects/#aug"
             passHref
           >
             <a className="text-slate-50 hover:text-orange hover:cursor-pointer">
               Autonomous Underwater Glider
             </a>
           </Link>
+          
         </div>
 
         <div className="space-y-2 flex flex-col text-center md:text-start">
           <h2 className="text-slate-50 font-bold mb-4">Information</h2>
-          <Link href="http://web.uvic.ca/~valeo/" passHref>
+          <Link legacyBehavior href="http://web.uvic.ca/~valeo/" passHref>
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -54,6 +57,7 @@ export const Footer = () => {
           </p>
           <div className="flex flex-row items-center md:items-baseline -space-x-1">
             <Link
+            legacyBehavior
               href="https://www.instagram.com/uvicenvironment/?hl=en"
               passHref
             >
@@ -62,6 +66,7 @@ export const Footer = () => {
               </a>
             </Link>
             <Link
+            legacyBehavior
               href="https://www.linkedin.com/company/university-of-victoria-environmental-engineering-club-uveec/"
               passHref
             >
@@ -70,6 +75,7 @@ export const Footer = () => {
               </a>
             </Link>
             <Link
+            legacyBehavior
               href="https://github.com/UVic-Environmental-Engineering-Club"
               passHref
             >
@@ -77,7 +83,7 @@ export const Footer = () => {
                 <FaGithub className="h-11 w-11 p-2 fill-slate-50 hover:fill-orange hover:cursor-pointer" />
               </a>
             </Link>
-            <Link href="https://discord.gg/SF6sRAQEuv" passHref>
+            <Link legacyBehavior href="https://discord.gg/SF6sRAQEuv" passHref>
               <a target="_blank" rel="noopener noreferrer">
                 <FaDiscord className="h-11 w-11 p-2 fill-slate-50 hover:fill-orange hover:cursor-pointer" />
               </a>

@@ -32,13 +32,13 @@ export const HeroBanner = () => {
           Capital Regional District of Victoria, British Columbia.
         </p>
         <div className="flex flex-row justify-evenly">
-          <Link href="/projects" passHref>
+          <Link legacyBehavior href="/projects" passHref>
             <a className=" flex flex-row items-center hover:cursor-pointer">
               <p className="text-orange font-bold">Learn more</p>
               <FaAngleRight className="h-5 w-5 fill-orange" />
             </a>
           </Link>
-          <Link href="/contact">
+          <Link legacyBehavior href="/contact">
             <a className=" flex flex-row items-center hover:cursor-pointer">
               <p className="text-slate-50">Contact us</p>
               <FaAngleRight className="h-5 w-5 fill-slate-50" />
@@ -48,13 +48,14 @@ export const HeroBanner = () => {
       </div>
       <div className="flex flex-row items-center justify-center bg-lightBlue text-slate-50 text-lg h-11 w-full py-2">
         Find us on&nbsp;
-        <Link href="https://www.instagram.com/uvicenvironment/?hl=en" passHref>
+        <Link legacyBehavior href="https://www.instagram.com/uvicenvironment/?hl=en" passHref>
           <a target="_blank" rel="noopener noreferrer">
             <FaInstagram className="h-6 w-6 fill-slate-50 hover:fill-orange hover:cursor-pointer" />
           </a>
         </Link>
         ,&nbsp;
         <Link
+        legacyBehavior
           href="https://www.linkedin.com/company/university-of-victoria-environmental-engineering-club-uveec/"
           passHref
         >
@@ -64,6 +65,7 @@ export const HeroBanner = () => {
         </Link>
         ,&nbsp;
         <Link
+        legacyBehavior
           href="https://github.com/UVic-Environmental-Engineering-Club"
           passHref
         >
@@ -72,7 +74,7 @@ export const HeroBanner = () => {
           </a>
         </Link>
         ,&nbsp;and&nbsp;
-        <Link href="https://discord.gg/SF6sRAQEuv" passHref>
+        <Link legacyBehavior href="https://discord.gg/SF6sRAQEuv" passHref>
           <a target="_blank" rel="noopener noreferrer">
             <FaDiscord className="h-6 w-6 fill-slate-50 hover:fill-orange hover:cursor-pointer" />
           </a>

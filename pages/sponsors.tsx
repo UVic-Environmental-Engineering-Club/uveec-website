@@ -13,7 +13,7 @@ const Sponsors: NextPage = () => {
             className="w-full h-64 lg:h-64 lg:w-96 relative hover:cursor-pointer overflow-hidden group"
             key={i}
           >
-            <Link href={card.link} passHref>
+            <Link legacyBehavior href={card.link} passHref>
               <a target="_blank" rel="noopener noreferrer">
                 <Image
                   src={card.img}
@@ -38,7 +38,7 @@ const Sponsors: NextPage = () => {
             className="w-full h-64 lg:h-64 lg:w-96 relative hover:cursor-pointer overflow-hidden group"
             key={i}
           >
-            <Link href={card.link} passHref>
+            <Link legacyBehavior href={card.link} passHref>
               <a target="_blank" rel="noopener noreferrer">
                 <Image
                   src={card.img}

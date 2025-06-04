@@ -53,7 +53,7 @@ const Home: NextPage = () => {
                   proof-of-concept solutions that can foster innovative
                   solutions to environmental problems.
                 </p>
-                <Link href="/about" passHref>
+                <Link legacyBehavior href="/about" passHref>
                   <a className="group inline-flex items-center h-9 rounded-full text-sm font-semibold whitespace-nowrap px-3 focus:outline-none focus:ring-2 bg-sky-50 text-sky-600 hover:bg-sky-200 hover:text-sky-700 focus:ring-sky-500 dark:bg-slate-700 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white dark:focus:ring-slate-500 mt-8 md:mb-10">
                     Learn More
                     <FaAngleRight className="overflow-visible ml-3 text-sky-300 group-hover:text-sky-400" />
