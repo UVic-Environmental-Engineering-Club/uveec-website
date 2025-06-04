@@ -137,7 +137,7 @@ export const SponsorMap = [
     link: "https://maxproto.com/",
   },
   {
-    img: "/images/onshape_logo_bright_version.png",
+    img: "/images/onshape_logo.png",
     title: "Onshape",
     link: "https://www.onshape.com/en/",
   },
@@ -172,7 +172,7 @@ export const SponsorMap = [
     link: "https://www.solidworks.com/",
   },
   {
-    img: "/images/teamgantt.svg",
+    img: "/images/teamgantt.png",
     title: "TeamGantt",
     link: "https://www.teamgantt.com/",
   },
@@ -200,7 +200,7 @@ export const SponsorMapDark = [
     link: "https://www.altium.com/",
   },
   {
-    img: "/images/ansys.png",
+    img: "/images/ansys-dark.png",
     title: "Ansys",
     link: "https://www.ansys.com/",
   },
@@ -231,7 +231,7 @@ export const SponsorMapDark = [
     link: "https://maxproto.com/",
   },
   {
-    img: "/images/onshape_logo_dark.png",
+    img: "/images/onshape_logo-dark.png",
     title: "Onshape",
     link: "https://www.onshape.com/en/",
   },
@@ -266,7 +266,7 @@ export const SponsorMapDark = [
     link: "https://www.solidworks.com/",
   },
   {
-    img: "/images/teamgantt.svg",
+    img: "/images/teamgantt-dark.png",
     title: "TeamGantt",
     link: "https://www.teamgantt.com/",
   },
