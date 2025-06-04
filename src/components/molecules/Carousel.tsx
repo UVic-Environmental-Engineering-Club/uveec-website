@@ -22,7 +22,7 @@ export const Carousel = ({ slides }: any) => {
   return (
     // I have no idea what I am doing but it is working for now.
     // AngleLeft is for arrows. Seems like we can use className to style div. - David
-    <div className="relative flex justify-center items-center rounded-lg w-full max-w-md mx-auto">
+    <div className="relative justify-center items-center rounded-lg w-full max-w-md mx-auto">
       <FaAngleLeft
         className={classNames("left-arrow", "opacity-40")}
         onClick={prevSlide}
