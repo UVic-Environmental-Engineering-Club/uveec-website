@@ -13,3 +13,18 @@
 ---
 
 [![Powered by Vercel](https://raw.githubusercontent.com/abumalick/powered-by-vercel/master/powered-by-vercel.svg)](https://vercel.com?utm_source=powered-by-vercel)
+
+
+# Getting Started
+
+## Clone the repository
+`git clone https://github.com/UVic-Environmental-Engineering-Club/uveec-website.git`
+
+## Install Dependencies
+Make sure you have [Node.js](https://nodejs.org/en/download/current) and [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) installed
+`yarn install`
+
+## Start The development Server
+`yarn dev`
+
+The website should now be running at http://localhost:3000
